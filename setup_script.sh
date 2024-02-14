@@ -24,6 +24,6 @@ sudo rm -r ./temp
 
 # install languages
 curl -fsSL https://bun.sh/install | bash
-# shellcheck source=~/.bashrc
+# shellcheck source=/dev/null
 source ~/.bashrc
 sudo apt install -y default-jdk
