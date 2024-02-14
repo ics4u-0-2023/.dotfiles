@@ -26,6 +26,3 @@ sudo rm -r ./temp
 curl -fsSL https://bun.sh/install | bash
 source ~/.bashrc
 sudo apt install -y default-jdk
-
-# copy over the scripts folder into the home directory for Java linting
-cp -r ./scripts/ ~/
