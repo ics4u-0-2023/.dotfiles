@@ -1,9 +1,11 @@
 return {
   "nvim-lualine/lualine.nvim",
   config = function()
-   options = {
-     theme = "dracula"
-   }
+    require("lualine").setup({
+      options = {
+        theme = "gruvbox_dark"
+      },
+    })  
   end
 }
 
