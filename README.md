@@ -6,5 +6,6 @@ This repository contains the dotfiles and a setup script to setup an AWS EC2 Deb
 You will have to load git first, to be able to clone the repository. You will also have to login to GitHub using GH CLI.
 
 ## Setup Script
-
+```bash
 sudo wget -O - https://raw.githubusercontent.com/ics4u-0-2023/.dotfiles/main/setup_script.sh | bash
+```
