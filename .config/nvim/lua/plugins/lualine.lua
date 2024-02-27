@@ -1,3 +1,4 @@
+-- luacheck: ignore vim
 return {
   "nvim-lualine/lualine.nvim",
   config = function()
