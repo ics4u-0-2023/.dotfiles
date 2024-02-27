@@ -29,8 +29,13 @@ source ~/.bashrc
 sudo apt install -y default-jdk
 
 # install Go
-tar -C /usr/local -xzf go1.22.0.linux-amd64.tar.gz
+mkdir temp
+cd temp || exit
+wget https://go.dev/dl/go1.22.0.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.22.0.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
+cd .. || exit
+sudo rm -r ./temp
 
 # install FFmpeg
 sudo apt install ffmpeg
