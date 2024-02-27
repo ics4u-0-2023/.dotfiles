@@ -6,7 +6,7 @@ return {
       options = {
         theme = "gruvbox_dark"
       },
-    })  
+    })
   end
 }
 
