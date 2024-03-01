@@ -1,7 +1,7 @@
 -- luacheck: ignore vim
 return {
     "Exafunction/codeium.vim",
-    event = 'BufEnter'
+    event = 'BufEnter',
     config = function()
     end
   }
