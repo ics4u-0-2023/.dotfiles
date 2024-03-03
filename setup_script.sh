@@ -10,6 +10,9 @@ sudo apt upgrade -y
 sudo apt remove w3m -y
 sudo apt install gh -y
 sudo apt install stow -y
+sudo apt install nodejs -y
+sudo apt install npm -y
+sudo npm i -g typescript-language-server; sudo npm i -g typescript
 
 # install NeoVim from source
 mkdir temp
