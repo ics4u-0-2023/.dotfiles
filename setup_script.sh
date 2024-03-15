@@ -25,6 +25,15 @@ cd .. || exit
 cd .. || exit
 sudo rm -r ./temp
 
+# install for NeoVin DAP
+cd ~ || exit
+git clone https://github.com/microsoft/vscode-js-debug
+cd vscode-js-debug || exit
+npm install --legacy-peer-deps
+npx gulp vsDebugServerBundle
+mv dist out
+cd .. || exit
+
 # install languages
 curl -fsSL https://bun.sh/install | bash
 # shellcheck source=/dev/null
